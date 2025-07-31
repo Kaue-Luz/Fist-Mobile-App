@@ -6,13 +6,16 @@ export const styles = StyleSheet.create({
     backgroundColor: "black",
     padding: 24,
   },
+
   eventName: {
     color: "#ffff",
     fontSize: 24,
     fontWeight: "bold",
     marginTop: 48,
   },
+
   eventDate: { color: "gray", fontSize: 16 },
+
   input: {
     height: 56,
     backgroundColor: "#1f1e25",
@@ -20,5 +23,19 @@ export const styles = StyleSheet.create({
     color: "#ffff",
     padding: 16,
     fontSize: 16,
+  },
+
+  buttonText: {
+    color: "#fff",
+    fontSize: 24,
+  },
+
+  button: {
+    width: 56,
+    height: 56,
+    borderRadius: 5,
+    backgroundColor: "#31cf67",
+    alignItems:'center',
+    justifyContent: "center"
   },
 });
